@@ -1,4 +1,4 @@
-    <footer class="container">
+    <footer class="container pt-5">
 		<p class="text-center">&copy; WLCC <?php echo date("Y");?></p>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
