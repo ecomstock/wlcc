@@ -2,7 +2,7 @@
 
 	<main role="main">
 
-        <div class="container" style="max-width: 900px;">
+        <div class="container containter-narrow">
             <p>The West Linn Community Chorus is a 501 (c)(3) non-profit organization dependent on the generosity of our community. We are funded through grants, ticket sales, fundraisers, membership fees and private donations. Support us through our Friends of the Chorus program or by shopping through our Amazon Smile or Sheet Music Plus links.</p>
             
             <div class="row mt-5">
