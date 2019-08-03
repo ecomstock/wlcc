@@ -5,18 +5,20 @@
         <div class="container">
             <h2>Our Chorus</h2>
             <div class="row">
-                <div class="col-sm-6">We are a non-auditioned chorus made up of singers of all levels from West Linn and surrounding communities. The chorus is a nonprofit 501(c)(3) organization run by a volunteer board of directors. The board’s monthly meetings are open to all members.</div>
+                <div class="col-sm-6">
+                    <div>
+                        <p>We are a non-auditioned chorus made up of singers of all levels from West Linn and surrounding communities. The chorus is a nonprofit 501(c)(3) organization run by a volunteer board of directors. The board’s monthly meetings are open to all members.</p>
+                    </div>
+                </div>
                 <div class="col-sm-6"><img src="./img/chorus-all.jpg" alt=""></div>
             </div>
             <h2>Our Team</h2>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/tina.jpg" alt="">
-                        <div class="card-body">
-                            <p class="card-text">Tina Paradiso (Artistic Director & Conductor)</p>
-                        </div>
-                    </div>
+                    <figure class="figure">
+                        <img src="./img/tina.jpg" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption">Tina Paradiso<br /><em>Artistic Director & Conductor</em></figcaption>
+                    </figure>
                 </div>
                 <div class="col-md-6"><p>
                     Tina Paradiso (Artistic Director & Conductor) has degrees in Voice Performance and Music Education. In addition to WLCC, she directs the Traditional Choir at Holy Family Catholic Church, and directs the Mary’s Woods Singers at Mary’s Woods. As a performer, Tina has appeared locally in Late Nite Catechism and Menopause the Musical. She gained acclaim as an original cast member in the LA production of Les Misérables. In addition, she toured nationally with Les Mis as well as Fiddler on the Roof. She has worked with stars Bob Hope, Tom Poston, Ken Berry and Jason Alexander. As a concert performer, Tina has performed internationally in Australia and Canada as well as in several west coast cities. Tina is the owner of Vivace Voices & The Fireside Carolers and is a member of AEA, AFTRA, and the American Choral Directors Association (ACDA).
@@ -24,6 +26,10 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
+                    <figure class="figure">
+                        <img src="./img/ardeth.jpg" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption">Tina Paradiso<br /><em>Artistic Director & Conductor</em></figcaption>
+                    </figure>
                     <div class="card">
                         <img class="card-img-top" src="./img/ardeth.jpg" alt="">
                         <div class="card-body">
