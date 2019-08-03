@@ -17,7 +17,9 @@
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		<a class="navbar-brand" href="./index.php">Navbar</a>
+		<a class="navbar-brand" href="./index.php">
+            <img src="./img/logo.jpg" class="figure-img img-fluid rounded mb-0" alt="" style="max-width: 60px;">
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
 			aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
