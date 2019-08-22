@@ -1,3 +1,5 @@
+<?php $currentPage = "Join"; ?>
+
 <?php include "./header.php"; ?>
 
 	<main role="main">

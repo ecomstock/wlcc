@@ -1,3 +1,5 @@
+<?php $currentPage = "Events"; ?>
+
 <?php include "./header.php"; ?>
 
 	<main role="main">

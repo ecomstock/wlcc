@@ -1,3 +1,5 @@
+<?php $currentPage = "Home"; ?>
+
 <?php include "./header.php"; ?>
 
 	<main role="main">
@@ -84,5 +86,7 @@
 		</div> <!-- /container -->
 
 	</main>
+
+	
 
 <?php include "./footer.php"; ?>

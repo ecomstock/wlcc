@@ -1,3 +1,5 @@
+<?php $currentPage = "About"; ?>
+
 <?php include "./header.php"; ?>
 
 	<main role="main">
