@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-lg-6">
                     <figure class="figure">
-                        <img src="./img/chorus-seated.jpg" class="figure-img img-fluid rounded" alt="">
+                        <img src="./img/chorus-seated.jpg" class="figure-img img-fluid" alt="">
                     </figure>
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-3 offset-lg-1">
                     <figure class="figure">
-                        <img src="./img/tina.jpg" class="figure-img img-fluid rounded" alt="">
+                        <img src="./img/tina.jpg" class="figure-img img-fluid" alt="">
                         <figcaption class="figure-caption">Tina Paradiso<br /><em>Artistic Director & Conductor</em></figcaption>
                     </figure>
                 </div>
@@ -38,7 +38,7 @@
             <div class="row mt-3">
                 <div class="col-md-3 offset-lg-1">
                     <figure class="figure">
-                        <img src="./img/ardeth.jpg" class="figure-img img-fluid rounded" alt="">
+                        <img src="./img/ardeth.jpg" class="figure-img img-fluid" alt="">
                         <figcaption class="figure-caption">Ardeth Fulmer<br /><em>Assistant Music Director & Barbershop Quartet Director</em></figcaption>
                     </figure>
                 </div>
@@ -49,7 +49,7 @@
             <div class="row mt-3">
                 <div class="col-md-3 offset-lg-1">
                     <figure class="figure">
-                        <img src="./img/maryann.jpg" class="figure-img img-fluid rounded" alt="">
+                        <img src="./img/maryann.jpg" class="figure-img img-fluid" alt="">
                         <figcaption class="figure-caption">MaryAnn Oringdulph<br /><em>Accompanist</em></figcaption>
                     </figure>
                 </div>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-md-4">
                     <figure class="figure">
-                        <img src="./img/ensemble-candid.jpg" class="figure-img img-fluid rounded" alt="">
+                        <img src="./img/ensemble-candid.jpg" class="figure-img img-fluid" alt="">
                     </figure>
                 </div>
             </div>
