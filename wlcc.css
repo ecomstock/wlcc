@@ -3,15 +3,15 @@ body {
 }
 
 .carousel-caption {
-	display : flex;
-	z-index:10;
-	text-align:center;
+	display: flex;
+	z-index: 10;
+	text-align: center;
 	color: black;
-	top:35%;
-	bottom:auto;
-	-webkit-transform:translate(0, -50%);
-	-ms-transform:translate(0, -50%);
-	transform:translate(0, -50%);
+	top: 35%;
+	bottom: auto;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
 }
 
 .main-title {
@@ -19,7 +19,7 @@ body {
 	font-size: 60px;
 }
 
-  .carousel-item {
+.carousel-item {
 	height: 100vh;
 	min-height: 350px;
 	background: no-repeat center center scroll;
@@ -27,7 +27,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  }
+}
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -46,7 +46,7 @@ body {
 	}
 }
   
-.narrow-container {
+.container-narrow {
 	max-width: 900px;
 }
 
@@ -102,12 +102,12 @@ body {
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  font-size: 20px;
-  color: black;
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
+	padding: .25rem 0;
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
