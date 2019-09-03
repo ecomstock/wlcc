@@ -1,4 +1,4 @@
-<?php $currentPage = "Support"; ?>
+<?php $currentPage = "Support Us"; ?>
 
 <?php include "./header.php"; ?>
 
@@ -20,7 +20,7 @@
                     </figure>
                 </div>
             </div>
-            <h3 class="mt-5">Donation Levels</h3>
+            <h3 class="mt-3">Donation Levels</h3>
             <table class="table">
                 <tbody>
                     <tr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-sm-6">
                     <figure class="figure">
-                        <a href="https://smile.amazon.com/ch/48-1291914" target="_blank"><img src="./img/amazon-smile-logo.png" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="https://smile.amazon.com/ch/48-1291914" target="_blank"><img src="./img/amazon-smile-logo.png" class="mt-n2 figure-img img-fluid rounded" alt=""></a>
                     </figure>
                 </div>
             </div>

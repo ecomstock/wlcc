@@ -1,4 +1,4 @@
-    <footer class="container pt-5">
+	<footer class="container pt-5">
 		<p class="text-center">&copy; WLCC <?php echo date("Y");?></p>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -16,15 +16,5 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
       integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
       crossorigin="anonymous">
-	</script>
-	<script>
-
-		$('li').on('click', rmCl);
-		
-		function rmCl () {
-			console.log("clicked!");
-		}
-
-
 	</script>
 </body>

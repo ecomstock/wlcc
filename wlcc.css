@@ -1,10 +1,206 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-	padding-top: 7rem;
+	font-family: 'Raleway', sans-serif;
 }
+
+
+
+.carousel-caption {
+	display : flex;
+	z-index:10;
+	text-align:center;
+	color: black;
+	top:35%;
+	/* right:10%; */
+	bottom:auto;
+	-webkit-transform:translate(0, -50%);
+	-ms-transform:translate(0, -50%);
+	transform:translate(0, -50%);
+}
+
+.main-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	flex: 0 10 20%;
+}
+  
+  /* Declare heights because of positioning of img element */
+  /* .carousel-item {
+	height: 100vh;
+  }
+  .carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 100vh;
+  } */
+
+  .carousel-item {
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+@media (min-width: 40em) {
+	.carousel-caption p {
+	  margin-bottom: 1.25rem;
+	  font-size: 1.25rem;
+	  line-height: 1.4;
+	}
+}
+
+@media(max-width: 500px) {
+	.carousel-caption h1 {
+		font-size: 2rem;
+	}
+}
+  
 
 .narrow-container {
 	max-width: 900px;
 }
 
+#bg-1 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/spring-2019-chorus.jpg");
+}
+#bg-2 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/chorus-women-2.jpg");
+}
+#bg-3 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/tina-maryann.jpg");
+}
+#bg-4 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/ensemble-christmas.jpg");
+}
+#bg-5 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/rehearsal-3.jpg");
+}
+#bg-6 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/chorus-men.jpg");
+}
+#bg-7 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/christmas-2018-chorus.jpg");
+}
+#bg-8 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/chorus-women-1.jpg");
+}
+#bg-9 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/barbershop-rehearsal.jpg");
+}
 
+/*
+ * Globals
+ */
+
+/* Links */
+/* a,
+a:focus,
+a:hover {
+  color: #fff;
+} */
+
+
+/*
+ * Base structure
+ */
+
+
+.flex-container {
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
+  box-shadow: inset 0 0 5rem white;
+}
+
+/* .cover-container {
+  max-width: 42em;
+} */
+
+
+/*
+ * Header
+ */
+/* .masthead {
+  margin-bottom: 2rem;
+} */
+
+/* .masthead-brand {
+  margin-bottom: 0;
+} */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: black;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+/* .cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+} */
+
+
+/*
+ * Footer
+ */
+/* .mastfoot {
+  color: rgba(255, 255, 255, .5);
+} */

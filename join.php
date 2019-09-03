@@ -1,4 +1,4 @@
-<?php $currentPage = "Join"; ?>
+<?php $currentPage = "Join the Chorus"; ?>
 
 <?php include "./header.php"; ?>
 
