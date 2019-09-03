@@ -2,15 +2,12 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-
-
 .carousel-caption {
 	display : flex;
 	z-index:10;
 	text-align:center;
 	color: black;
 	top:35%;
-	/* right:10%; */
 	bottom:auto;
 	-webkit-transform:translate(0, -50%);
 	-ms-transform:translate(0, -50%);
@@ -20,20 +17,7 @@ body {
 .main-title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
-	flex: 0 10 20%;
 }
-  
-  /* Declare heights because of positioning of img element */
-  /* .carousel-item {
-	height: 100vh;
-  }
-  .carousel-item > img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 100vh;
-  } */
 
   .carousel-item {
 	height: 100vh;
@@ -62,7 +46,6 @@ body {
 	}
 }
   
-
 .narrow-container {
 	max-width: 900px;
 }
@@ -113,45 +96,10 @@ body {
 	url("img/barbershop-rehearsal.jpg");
 }
 
-/*
- * Globals
- */
-
-/* Links */
-/* a,
-a:focus,
-a:hover {
-  color: #fff;
-} */
-
-
-/*
- * Base structure
- */
-
-
 .flex-container {
-  /* display: -ms-flexbox; */
-  display: flex;
-  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
-  box-shadow: inset 0 0 5rem white;
+  	display: flex;
+  	/* box-shadow: inset 0 0 5rem white; */
 }
-
-/* .cover-container {
-  max-width: 42em;
-} */
-
-
-/*
- * Header
- */
-/* .masthead {
-  margin-bottom: 2rem;
-} */
-
-/* .masthead-brand {
-  margin-bottom: 0;
-} */
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -184,23 +132,3 @@ a:hover {
     float: right;
   }
 }
-
-
-/*
- * Cover
- */
-/* .cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-} */
-
-
-/*
- * Footer
- */
-/* .mastfoot {
-  color: rgba(255, 255, 255, .5);
-} */
