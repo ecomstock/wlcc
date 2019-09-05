@@ -58,7 +58,7 @@ body {
 #bg-2 {
 	background-image:
 	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
-	url("img/chorus-women-2.jpg");
+	url("img/rehearsal-4.jpg");
 }
 #bg-3 {
 	background-image:
@@ -78,7 +78,7 @@ body {
 #bg-6 {
 	background-image:
 	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
-	url("img/chorus-men.jpg");
+	url("img/chorus-seated.jpg");
 }
 #bg-7 {
 	background-image:
@@ -94,6 +94,16 @@ body {
 	background-image:
 	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
 	url("img/barbershop-rehearsal.jpg");
+}
+#bg-10 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/rehearsal-1.jpg");
+}
+#bg-11 {
+	background-image:
+	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
+	url("img/rehearsal-2.jpg");
 }
 
 .flex-container {

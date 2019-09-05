@@ -26,6 +26,8 @@
 				<div class="carousel-item" id="bg-7"></div>
 				<div class="carousel-item" id="bg-8"></div>
 				<div class="carousel-item" id="bg-9"></div>
+				<div class="carousel-item" id="bg-10"></div>
+				<div class="carousel-item" id="bg-11"></div>
 			</div>
 		</div>
 	</main>
