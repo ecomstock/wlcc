@@ -17,29 +17,29 @@
 </head>
 
 <body>
-	<div class="flex-container">
-		<header class="masthead pt-3 pl-3 pb-5">
-			<div class="inner">
-				<nav class="nav nav-masthead justify-content-center">
-					<?php	
-						$urls = array(
-							"Home"    => "./index.php",
-							"About"   => "./about.php",
-							"Support Us" => "./support.php",
-							"Join the Chorus"    => "./join.php",
-							"Events"  => "./events.php",
-							"Contact" => "./contact.php"
-						);
-						foreach ($urls as $name => $url) {
-							$aClass = (($currentPage === $name) ? "class='nav-link active'" : "class='nav-link'");
-	
-							print 
-								"<a $aClass href='$url'>$name</a>";
-						}
-					?>
-				</nav>
-			</div>
-		</header>
+	<div <? if ($currentPage === "Home") echo "class='d-none d-sm-block'"; ?>>
+		<div class="flex-container">
+			<header class="masthead pt-3 pl-3 pb-5">
+				<div class="inner">
+					<nav class="nav nav-masthead justify-content-center">
+						<?php	
+							$urls = array(
+								"Home"            => "./index.php",
+								"About"           => "./about.php",
+								"Support Us"      => "./support.php",
+								"Join the Chorus" => "./join.php",
+								"Events"          => "./events.php",
+								"Contact"         => "./contact.php"
+							);
+							foreach ($urls as $name => $url) {
+								$aClass = (($currentPage === $name) ? "class='nav-link active'" : "class='nav-link'");
+								print "<a $aClass href='$url'>$name</a>";
+							}
+						?>
+					</nav>
+				</div>
+			</header>
+		</div>
 	</div>
 
 				
