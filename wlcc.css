@@ -2,18 +2,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-.carousel-caption {
-	display: flex;
-	z-index: 10;
-	text-align: center;
-	color: black;
-	top: 40%;
-	/* bottom: auto; */
-	-webkit-transform: translate(0, -50%);
-	-ms-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-}
-
 .main-title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
@@ -28,15 +16,69 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.flex-container {
+  	display: flex;
+  	/* box-shadow: inset 0 0 5rem white; */
+}
+
+.nav-masthead .nav-link {
+	padding: .25rem 0;
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: black;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
   
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-@media (min-width: 40em) {
+@media (min-width: 500px) {
+	.carousel-caption {
+		display: flex;
+		z-index: 10;
+		text-align: center;
+		color: black;
+		top: 40%;
+		/* bottom: auto; */
+		-webkit-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
 	.carousel-caption p {
-	  margin-bottom: 1.25rem;
-	  font-size: 1.25rem;
-	  line-height: 1.4;
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
+	}
+}
+
+@media(max-width: 500px) {
+	html, body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption {
+		/* top: 10%; */
+		flex-direction: column;
+    	/* justify-content: center;
+    	align-items: center; */
 	}
 }
 
@@ -45,10 +87,18 @@ body {
 		font-size: 2rem;
 	}
 }
-  
-.container-narrow {
-	max-width: 900px;
+
+@media (min-width: 48em) {
+	.masthead-brand {
+	  float: left;
+	}
+	.nav-masthead {
+	  float: right;
+	}
 }
+
+/* CAROUSEL BG IMAGES
+-------------------------------------------------- */
 
 #bg-1 {
 	background-image:
@@ -104,41 +154,4 @@ body {
 	background-image:
 	linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.99)),
 	url("img/rehearsal-2.jpg");
-}
-
-.flex-container {
-  	display: flex;
-  	/* box-shadow: inset 0 0 5rem white; */
-}
-
-.nav-masthead .nav-link {
-	padding: .25rem 0;
-	font-weight: 700;
-	font-size: 20px;
-	color: black;
-	background-color: transparent;
-	border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: black;
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: black;
-  border-bottom-color: black;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
 }

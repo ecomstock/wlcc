@@ -7,10 +7,10 @@
 			<div class="carousel-inner" data-pause="false">
 				<div class="carousel-caption d-block">
 					<div class="d-sm-none">
-						<div class="flex-container">
-							<header class="masthead pt-3 pl-3">
+						<div class="">
+							<header class="masthead">
 								<div class="inner">
-									<nav class="nav nav-masthead justify-content-center">
+									<nav class="nav nav-masthead">
 										<?php	
 											$urls = array(
 												"Home"            => "./index.php",
@@ -32,7 +32,8 @@
 					</div>
 					<h1 class="main-title">WEST LINN COMMUNITY CHORUS</h1>
 					<hr class="pt-3" style="max-width: 750px;">
-					<p style="max-width: 750px; display: inline-block;"><em>The mission of the West Linn Community Chorus is to share the joy of music and enrich the community through quality choral performance.</em></p>
+					<p style=""><em>The mission of the West Linn Community Chorus is to share the joy of music and enrich the community through quality choral performance.</em></p>
+					<!-- <p style="max-width: 750px; display: inline-block;"><em>The mission of the West Linn Community Chorus is to share the joy of music and enrich the community through quality choral performance.</em></p> -->
 				</div>
 				<div class="carousel-item active" id="bg-1" ></div>
 				<div class="carousel-item" id="bg-2"></div>
