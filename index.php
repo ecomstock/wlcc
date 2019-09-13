@@ -5,7 +5,8 @@
 	<main role="main">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="false">
 			<div class="carousel-inner" data-pause="false">
-				<div class="carousel-caption d-block">
+				<!-- <div class="carousel-caption d-block"> -->
+				<div class="carousel-caption">
 					<div class="d-sm-none">
 						<div class="">
 							<header class="masthead">
