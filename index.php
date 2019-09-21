@@ -8,7 +8,7 @@
 				<!-- <div class="carousel-caption d-block"> -->
 				<div class="carousel-caption">
 					<div class="d-sm-none">
-						<div class="">
+						<div>
 							<header class="masthead">
 								<div class="inner">
 									<nav class="nav nav-masthead">
@@ -31,7 +31,7 @@
 							</header>
 						</div>
 					</div>
-					<h1>WEST LINN COMMUNITY CHORUS</h1>
+					<h1 class="pt-5">WEST LINN COMMUNITY CHORUS</h1>
 					<hr class="pt-3" style="max-width: 750px;">
 					<p style=""><em>The mission of the West Linn Community Chorus is to share the joy of music and enrich the community through quality choral performance.</em></p>
 					<!-- <p style="max-width: 750px; display: inline-block;"><em>The mission of the West Linn Community Chorus is to share the joy of music and enrich the community through quality choral performance.</em></p> -->

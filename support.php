@@ -12,7 +12,7 @@
                     <div class="row mt-5">
                         <div class="col-sm-6">
                             <div>
-                                <h3>Friends of the Chorus</h3>
+                                <h2>Friends of the Chorus</h2>
                                 <p>Donations to our Friends of the Chorus program enable us to pay our professional musicians, rent rehearsal and performance spaces, promote our events, and provide music to all of our members.</p>
                             </div>
                         </div>
@@ -22,7 +22,7 @@
                             </figure>
                         </div>
                     </div>
-                    <h3 class="mt-3">Donation Levels</h3>
+                    <h4 class="mt-3">Donation Levels</h4>
                     <table class="table">
                         <tbody>
                             <tr>
@@ -59,7 +59,7 @@
                     </table>
                     <p>Kindly mail donations to: West Linn Community Chorus, PO Box 187, West Linn, OR 97068</p>
                     <p>Please write “Friends of the Chorus” in the memo line.</p>
-                    <h3 class="mt-5">AmazonSmile</h3>
+                    <h2 class="mt-5">AmazonSmile</h2>
                     <div class="row">
                         <div class="col-sm-6">
                             <div><p>Support the chorus while you shop. Simply login through the AmazonSmile portal and designate the West Linn Community Chorus as your charity and Amazon will donate 0.5% of the price of your eligible purchases to West Linn Community Chorus.</p></div>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <a href="https://smile.amazon.com/ch/48-1291914" target="_blank"><p>Simply follow this link to AmazonSmile and login to your Amazon account as normal.</p></a>
-                    <h3 class="mt-5">Sheet Music Plus</h3>
+                    <h2 class="mt-5">Sheet Music Plus</h2>
                     <div class="row mb-5">
                         <div class="col-sm-6">
                             <div><p>Help support the Chorus through your music purchases!  Any music purchased through the  link at right earns the Chorus an 8% rebate which in turn helps grow our library with fresh new music and arrangements.</p></div>

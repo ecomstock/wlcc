@@ -5,7 +5,7 @@
 	<main role="main">
 
         <div class="container">
-            <section class="resume-section p-4 p-lg-5 text-center" id="contact">
+            <section class="resume-section p-md-5 text-center" id="contact">
                 <div class="my-auto">
                     <h1 class="mb-4">Contact Us</h1>
 
@@ -14,13 +14,9 @@
                             <i class="fas fa-envelope-open mr-2 contact-icons"></i>westlinnchorus@gmail.com</a>
                         </li>
                         <li>
-                            <i class="fas fa-mobile-alt mr-2 contact-icons"></i>+48 888 888
-                        </li>
-                        <li>
                             <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>PO Box 187<br/>West Linn, OR 97068
                         </li>
                     </ul>
-
                     <p>
                         ...or leave your message below and we will get back to you as soon as
                         possible.

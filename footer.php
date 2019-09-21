@@ -1,5 +1,6 @@
-	<footer class="container pt-5">
-		<p class="text-center">&copy; WLCC <?php echo date("Y");?></p>
+	<footer class="container pt-3">
+		<div class="fb-like d-flex justify-content-center" data-href="https://www.facebook.com/WestLinnChorus" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+		<p class="text-center pt-3">&copy; WLCC <?php echo date("Y");?></p>	
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

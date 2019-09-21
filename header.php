@@ -17,9 +17,11 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 	<div <? if ($currentPage === "Home") echo "class='d-none d-sm-block'"; ?>>
 		<div class="flex-container">
-			<header class="masthead pt-3 pl-3 pb-5">
+			<header class="masthead pt-3 pl-md-3 pb-5">
 				<div class="inner">
 					<nav class="nav nav-masthead justify-content-center">
 						<?php	
