@@ -5,7 +5,7 @@ $(document).ready(function(){
     loadDate();
 
     function loadHeader (callback) {
-        const $header = $("#header");
+        const $header = $(".header");
         $header.load("header.html", navActivator);
     }
 
