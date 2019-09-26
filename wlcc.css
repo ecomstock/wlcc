@@ -26,8 +26,9 @@ body {
 /* NAV CSS
 -------------------------------------------------- */
 
-.flex-container {
-  	display: flex;
+.nav-container {
+	display: flex;
+	justify-content: center;  
 }
 
 .nav-masthead .nav-link {
@@ -52,12 +53,19 @@ body {
   	border-bottom-color: black;
 }
 
+.nav {
+	top: 5%;
+	right: 5%;
+	left: 5%;
+	justify-content: center;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
   
 @media (min-width: 575px) {
 	.carousel-caption {
-		top: -25%;
+		top: -40%;
 		justify-content: center;
     	align-items: center;
 	}
@@ -84,10 +92,10 @@ body {
 	.nav-masthead .nav-link {
 		font-size: 15px;
 	}
-	.nav {
+	/* .nav {
 		display: flex;
 		justify-content: center;
-	}
+	} */
 }
 
 /* CAROUSEL BG IMAGES
