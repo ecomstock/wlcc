@@ -1,9 +1,14 @@
+
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #333;
 }
 
 .container {
+	background-color: white;
+}
+
+.index-footer {
 	background-color: white;
 }
 
@@ -34,6 +39,7 @@ body {
 .nav-container {
 	display: flex;
 	justify-content: center;  
+	background-color: white;
 }
 
 .nav-masthead .nav-link {
