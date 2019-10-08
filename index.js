@@ -4,9 +4,9 @@ $(document).ready(function(){
     loadFooter();
     loadDate();
 
-    function loadHeader (callback) {
+    function loadHeader () {
         const $header = $(".header");
-        $header.load("header.html", navActivator);
+        $header.load("header.html", activateNav);
     }
 
     function loadFooter () {
@@ -25,11 +25,10 @@ $(document).ready(function(){
         return year
     }
 
-    function navActivator () {
-        //$("#home").addClass("active");
-        //$('a[href="./' + location.pathname.split("/")[1] + '"]').addClass('active');
-        //console.log(location.pathname.split("/")[1]);
+    function activateNav () {
+        const clippedPath = location.pathname.split("wlcc/")[1];
+        const $activeElement = $(`a[href='${clippedPath}']`);
+        $activeElement.addClass("active");
+        //$('a[href="./' + location.pathname.split("wlcc/")[1] + '"]').addClass("active");
     }
-    //$('nav a[href="./' + location.pathname.split("/")[1] + '"]').addClass('active');
-
 });
