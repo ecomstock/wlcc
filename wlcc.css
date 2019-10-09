@@ -4,13 +4,12 @@ body {
 	background-color: #333;
 }
 
-.container {
+.container, .index-footer {
 	background-color: white;
 }
 
-.index-footer {
-	background-color: white;
-}
+/* CAROUSEL CSS
+-------------------------------------------------- */
 
 .carousel-caption {
 	display: flex;
