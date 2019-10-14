@@ -75,7 +75,7 @@ body {
   
 @media (min-width: 575px) {
 	.carousel-caption {
-		top: -40%;
+		top: -20%;
 		justify-content: center;
     	align-items: center;
 	}
