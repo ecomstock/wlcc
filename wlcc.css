@@ -38,7 +38,8 @@ body {
 .nav-container {
 	display: flex;
 	justify-content: center;  
-	background-color: white;
+	/* background-color: white; */
+	background-color: transparent;
 }
 
 .nav-masthead .nav-link {
@@ -98,6 +99,10 @@ body {
 	}
 	.carousel-caption h1 {
 		font-size: 2rem;
+	}
+	.carousel-title {
+		position: relative;
+		top: 10%;
 	}
 	.nav-masthead .nav-link {
 		font-size: 15px;
