@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
 
     function activateNav () {
-        const clippedPath = location.pathname.split("westlinnchorus.org/")[1];
+        const clippedPath = location.pathname.split("/")[1];
         const $activeElement = $(`a[href='${clippedPath}']`);
         $activeElement.addClass("active");
     }
