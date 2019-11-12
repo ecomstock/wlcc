@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
 
     function activateNav () {
-        const clippedPath = location.pathname.split("wlcc/")[1];
+        const clippedPath = location.pathname.split("org/")[1];
         const $activeElement = $(`a[href='${clippedPath}']`);
         $activeElement.addClass("active");
     }
