@@ -32,7 +32,7 @@ $(document).ready(function(){
         const clippedPath = location.pathname.split("/")[1];
         console.log(clippedPath);
         if (!clippedPath) {
-            return "index";
+            return "index.html";
         } else {
             return clippedPath;
         }
