@@ -23,8 +23,18 @@ $(document).ready(function(){
     }
 
     function activateNav () {
-        const clippedPath = location.pathname.split("/")[1];
-        const $activeElement = $(`a[href='${clippedPath}']`);
+        const path = findPath();
+        const $activeElement = $(`a[href="${path}"]`);
         $activeElement.addClass("active");
+    }
+
+    function findPath () {
+        const clippedPath = location.pathname.split("/")[1];
+        console.log(clippedPath);
+        if (!clippedPath) {
+            return "index";
+        } else {
+            return clippedPath;
+        }
     }
 });
