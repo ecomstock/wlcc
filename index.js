@@ -30,7 +30,6 @@ $(document).ready(function(){
 
     function findPath () {
         const clippedPath = location.pathname.split("/")[1];
-        console.log(clippedPath);
         if (!clippedPath) {
             return "index.html";
         } else {
