@@ -31,6 +31,7 @@ $(document).ready(function(){
     function findPath () {
         const clippedPath = location.pathname.split("/")[1];
         if (!clippedPath) {
+            $("#modal-concert").modal();
             return "index.html";
         } else {
             return clippedPath;
