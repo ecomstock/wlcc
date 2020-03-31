@@ -37,4 +37,5 @@ $(document).ready(function(){
             return clippedPath;
         }
     }
+    //$("#modal-index").modal();
 });
